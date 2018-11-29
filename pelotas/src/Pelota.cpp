@@ -15,7 +15,7 @@ void Pelota::inicializar(sf::Texture& tex, int max_ancho, int max_alto)
    m_ancho_nivel = max_ancho;
    m_alto_nivel = max_alto;
 
-   salto=max_alto/2;
+   salto=max_alto;
    // Velocidad inicial
    velocidad = 4.0;
 
@@ -45,12 +45,12 @@ void Pelota::actualizar()
    float posY = m_sprite.getPosition().y;
 
    // Rebotar si las coordenadas sobrepasan el tamaño del nivel
-   /*
+
    if (posX < 0 || posX > m_ancho_nivel)
    {
       m_direccion.x *= -1;
    }
-*/
+
    if (posY < 0 || posY > salto)
    {
       m_direccion.y *= -1;
@@ -62,7 +62,7 @@ void Pelota::reiniciar()
    m_sprite.setPosition(rand() % m_ancho_nivel, rand() %m_alto_nivel);
 
    int dir = rand() % 180;
-  // m_direccion.x = cos(dir * 3.1416 / 180) * velocidad;
+   m_direccion.x = cos(dir * 3.1416 / 180) * velocidad;
    m_direccion.y = sin(dir * 3.1416 / 180) * velocidad;
 
    // La velocidad será un poco más rápida al próximo reinicio

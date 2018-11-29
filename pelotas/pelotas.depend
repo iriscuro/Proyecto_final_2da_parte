@@ -442,14 +442,14 @@
 1543108873 d:\hit the ball\pelotas\include\menu.h
 	<SFML/Graphics.hpp>
 
-1543124256 source:e:\proyecto_final-master\pelotas\main.cpp
+1543495690 source:e:\proyecto_final-master\pelotas\main.cpp
 	<cstdlib>
 	<ctime>
 	"Juego.h"
 	"Menu.h"
 	<iostream>
 
-1543124241 e:\proyecto_final-master\pelotas\include\juego.h
+1543315331 e:\proyecto_final-master\pelotas\include\juego.h
 	<vector>
 	<SFML/Graphics.hpp>
 	"Pelota.h"
@@ -457,21 +457,23 @@
 1543100706 e:\proyecto_final-master\pelotas\include\pelota.h
 	<SFML/Graphics.hpp>
 
-1543124241 e:\proyecto_final-master\pelotas\include\menu.h
+1543496018 e:\proyecto_final-master\pelotas\include\menu.h
 	<SFML/Graphics.hpp>
+	"Juego.h"
 
-1543124578 source:e:\proyecto_final-master\pelotas\src\juego.cpp
+1543495690 source:e:\proyecto_final-master\pelotas\src\juego.cpp
 	<iostream>
 	<sstream>
 	"Juego.h"
 
-1543124241 source:e:\proyecto_final-master\pelotas\src\menu.cpp
+1543495949 source:e:\proyecto_final-master\pelotas\src\menu.cpp
+	"Juego.h"
 	"Menu.h"
 	<SFML/Graphics.hpp>
 	<iostream>
 	<sstream>
 
-1543100706 source:e:\proyecto_final-master\pelotas\src\pelota.cpp
+1543496192 source:e:\proyecto_final-master\pelotas\src\pelota.cpp
 	<cmath>
 	<cstdlib>
 	"Pelota.h"
@@ -884,4 +886,19 @@
 	<SFML/Graphics/PrimitiveType.hpp>
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
+
+1543495447 source:e:\proyecto_final-master\pelotas\src\base.cpp
+	"Base.h"
+
+1543495447 e:\proyecto_final-master\pelotas\include\base.h
+
+1543486881 source:e:\proyecto_final-master\pelotas\src\jugador.cpp
+	"jugador.h"
+
+1543486881 e:\proyecto_final-master\pelotas\include\jugador.h
+
+1543495467 source:e:\proyecto_final-master\pelotas\src\pieza.cpp
+	"Pieza.h"
+
+1543495467 e:\proyecto_final-master\pelotas\include\pieza.h
 

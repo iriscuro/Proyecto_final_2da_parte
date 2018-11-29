@@ -15,6 +15,7 @@ int main()
    //juego.correr();
    Menu menu;
    menu.accion();
-
+   //Juego juego;
+   //juego.correr();
    return 0;
 }

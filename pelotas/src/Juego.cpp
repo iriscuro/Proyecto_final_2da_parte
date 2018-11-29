@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 #include <sstream>
 
@@ -161,17 +161,27 @@ void Juego::correr()
             }
 
 
-            // Obtener las coordenadas de la segunda pelota
             pelotaX = pelota2.obtenerX();
             pelotaY = pelota2.obtenerY();
 
-            // ¿El mouse tocó la pelota2?
             if (mouseX > pelotaX - 40 && mouseX < pelotaX + 40
             && mouseY > pelotaY - 40 && mouseY < pelotaY + 40)
             {
                aumentarScore();
                actualizarTiempo();
                pelota2.reiniciar();
+            }
+
+            pelotaX = pelota3.obtenerX();
+            pelotaY = pelota3.obtenerY();
+
+
+            if (mouseX > pelotaX - 40 && mouseX < pelotaX + 40
+            && mouseY > pelotaY - 40 && mouseY < pelotaY + 40)
+            {
+               aumentarScore();
+               actualizarTiempo();
+               pelota3.reiniciar();
             }
          }
 
@@ -227,4 +237,4 @@ void Juego::correr()
 }
 
 
-*/
+

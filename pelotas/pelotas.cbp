@@ -16,12 +16,12 @@
 					<Add directory="include" />
 				</Compiler>
 				<Linker>
-					<Add library="C:\SFML-2.5.1\lib\libsfml-audio-d.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-graphics-d.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-main-d.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-network-d.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-system-d.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-window-d.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-audio-d.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-graphics-d.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-main-d.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-network-d.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-system-d.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-window-d.a" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -35,12 +35,12 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-audio.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-graphics.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-main.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-network.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-system.a" />
-					<Add library="C:\SFML-2.5.1\lib\libsfml-window.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-audio.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-graphics.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-main.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-network.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-system.a" />
+					<Add library="C:/SFML-2.5.1/lib/libsfml-window.a" />
 				</Linker>
 			</Target>
 		</Build>
@@ -49,13 +49,21 @@
 			<Add option="-fexceptions" />
 			<Add directory="C:/SFML-2.5.1/include" />
 		</Compiler>
+		<Unit filename="include/Base.h" />
+		<Unit filename="include/Bse.h" />
 		<Unit filename="include/Juego.h" />
 		<Unit filename="include/Menu.h" />
 		<Unit filename="include/Pelota.h" />
+		<Unit filename="include/Pieza.h" />
+		<Unit filename="include/jugador.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Base.cpp" />
+		<Unit filename="src/Bse.cpp" />
 		<Unit filename="src/Juego.cpp" />
 		<Unit filename="src/Menu.cpp" />
 		<Unit filename="src/Pelota.cpp" />
+		<Unit filename="src/Pieza.cpp" />
+		<Unit filename="src/jugador.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

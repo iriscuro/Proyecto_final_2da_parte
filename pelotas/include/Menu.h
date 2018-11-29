@@ -3,6 +3,7 @@
 #define MENU_H
 #include <SFML/Graphics.hpp>
 #define MAX_NUMBER_OF_ITEMS 5
+#include "Juego.h"
 class Menu
 {
     public:
@@ -14,7 +15,7 @@ class Menu
         bool inicio;
         int tiem;
         bool inicializa();
-
+        Juego juego;
 
         sf::Texture tx_fondo1;
         sf::Texture tx_fondo2;

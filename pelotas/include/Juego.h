@@ -1,4 +1,4 @@
-/*
+
 #ifndef JUEGO_HPP_INCLUDED
 #define JUEGO_HPP_INCLUDED
 
@@ -52,4 +52,4 @@ public:
 
 #endif // JUEGO_HPP_INCLUDED
 
-*/
+

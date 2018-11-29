@@ -1,4 +1,5 @@
 
+#include "Juego.h"
 #include "Menu.h"
 #include <SFML/Graphics.hpp>
 #include <iostream>
@@ -139,6 +140,8 @@ void Menu::accion()
 					{
 					case 0:
 						std::cout << "Play apretaste el boton" << std::endl;
+						ventana1.close();
+                        juego.correr();
 						break;
 					case 1:
 						std::cout << "Scores apretaste el boton" << std::endl;
@@ -168,7 +171,6 @@ void Menu::accion()
 		}
 
       ventana1.clear();
-
 
       // Mostrar todo
       dibujarSprites();
